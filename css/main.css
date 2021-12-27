@@ -74,24 +74,31 @@ img{
   vertical-align: middle;
 }
 
-.header{
+/* .header{
   display: flex;
   justify-content: space-between;
   margin-top: 43px;
   margin-bottom: 45px;
+} */
+
+.header__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 43px;
+  margin-bottom: 45px;
 }
 
-.logo-link{
+.header__link{
   width: 236px;
   height: 26px;
 }
 
-.site-menu{
+.header__menu{
 display: flex;
-align-items: center;
 }
 
-.menu-link{
+.header__menu--link{
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
@@ -102,16 +109,16 @@ align-items: center;
   text-decoration: none;
 }
 
-.menu-link:hover{
+.header__menu--link:hover{
   color: #333D4B;
 }
 
-.menu-link:active{
+.header__menu--link:active{
   color: #333D4B; 
 }
 
 
-.hero-box{
+.hero__box{
   background-image: url("../images/coffee.png");
   background-repeat: no-repeat;
   padding-top: 117px;
@@ -120,11 +127,11 @@ align-items: center;
   border-radius: 10px;
 }
   
-.hero-info{
+.hero__info{
   width: 493px;
 }
 
-.hero-title{
+.hero__title{
   font-family: Fraunces 9pt;
   font-weight: 900;
   font-size: 72px;
@@ -134,7 +141,7 @@ align-items: center;
   margin: 0;
   }
 
-.hero-text{
+.hero__text{
   width: 445px;
   font-size: 16px;
   line-height: 26px;
@@ -143,7 +150,7 @@ align-items: center;
   margin-bottom: 56px;
 }
 
-.hero-link{
+.hero__link{
   font-family: Fraunces 9pt;
   font-weight: 900;
   font-size: 18px;
@@ -159,10 +166,10 @@ align-items: center;
   text-decoration: none;
 }
 
-.hero-link:hover{
+.hero__link:hover{
   background: #66D2CF;
 }
 
-.hero-link:active{
+.hero__link:active{
   background: #66D2CF;
 }
